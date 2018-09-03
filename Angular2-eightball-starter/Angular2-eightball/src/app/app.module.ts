@@ -1,7 +1,6 @@
 import { AppComponent }  from './app.component';
 import { EightballAnswerComponent }  from './eightball-answer.component';
 import { EightballService } from './eightball.service';
-import { LocalStorageService } from 'angular-2-local-storage';
 
 
 import { NgModule }      from '@angular/core';
@@ -19,7 +18,7 @@ const appRoutes: Routes = [
   imports:      [ BrowserModule, HttpClientModule,
                 RouterModule.forRoot(appRoutes) ],
   declarations: [AppComponent, EightballAnswerComponent ],
-  providers:    [EightballService, LocalStorageService ],
+  providers:    [EightballService ],
   bootstrap:    [ AppComponent]
 })
 

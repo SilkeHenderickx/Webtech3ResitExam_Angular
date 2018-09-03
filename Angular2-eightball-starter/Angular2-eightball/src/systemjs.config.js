@@ -22,7 +22,6 @@
       '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
       '@angular/common/http': 'npm:@angular/common/bundles/common-http.umd.js',
       'tslib': 'npm:tslib/tslib.js',
-      'angular-2-local-storage': 'vendor/angular-2-local-storage',
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 

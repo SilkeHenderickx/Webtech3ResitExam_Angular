@@ -10,9 +10,9 @@ export class EightballService {
     
     private eightballServiceURI: string = 'http://localhost:3001';
 
-    getAnswer(eightball: Eightball): Observable<Eightball[]>{
+    getAnswer(eightball: Eightball): Observable<Eightball>{
         let url = '${this.eightballServiceURI}/answer';
         
-        return this.http.get<Eightball[]>(url);
+        return this.http.get<Eightball>(url);
     } 
 }
