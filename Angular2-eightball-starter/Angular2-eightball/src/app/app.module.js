@@ -13,7 +13,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var router_1 = require("@angular/router");
 var http_1 = require("@angular/common/http");
 var appRoutes = [
-    { path: 'posts', component: eightball_answer_component_1.EightballAnswerComponent }
+    { path: '**', component: eightball_answer_component_1.EightballAnswerComponent }
 ];
 var AppModule = (function () {
     function AppModule() {

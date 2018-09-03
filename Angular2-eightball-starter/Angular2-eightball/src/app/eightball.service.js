@@ -13,7 +13,12 @@ var http_1 = require("@angular/common/http");
 var EightballService = (function () {
     function EightballService(http) {
         this.http = http;
+        this.eightballServiceURI = 'http://localhost:3001';
     }
+    EightballService.prototype.getAnswer = function (eightball) {
+        var url = '${this.eightballServiceURI}/answer';
+        return this.http.get(url);
+    };
     return EightballService;
 }());
 EightballService = __decorate([

@@ -3,10 +3,13 @@
    <br />
    <br />
 	<nav>
-       <button routerLink='/posts'>List Posts</button>
+	<form routerLink='/answer'>
+  Your question:<br>
+  <input type="text" name="question" >
+  <br>
+  <input type="submit" value="Shake Ball">
+</form> 
    </nav>
    <!--router-outlet></router-outlet-->
-   <post-list (commentsFound)='handlecommentsFound($event)'></post-list>
-
+   <eightball-answer></eightball-answer>
 </div>
-

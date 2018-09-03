@@ -19,7 +19,7 @@ var EightballAnswerComponent = (function () {
 EightballAnswerComponent = __decorate([
     core_1.Component({
         selector: 'eightball-answer',
-        templateUrl: './eightball-answer.html'
+        templateUrl: './eightball-answer.component.html'
     }),
     __metadata("design:paramtypes", [eightball_service_1.EightballService])
 ], EightballAnswerComponent);
