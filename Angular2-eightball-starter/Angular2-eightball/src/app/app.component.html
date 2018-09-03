@@ -1,0 +1,12 @@
+<div class = 'container'>
+   <h1>Magic Eightball</h1>
+   <br />
+   <br />
+	<nav>
+       <button routerLink='/posts'>List Posts</button>
+   </nav>
+   <!--router-outlet></router-outlet-->
+   <post-list (commentsFound)='handlecommentsFound($event)'></post-list>
+
+</div>
+
